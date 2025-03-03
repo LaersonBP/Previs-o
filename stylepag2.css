@@ -1,0 +1,62 @@
+* {
+color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: x-large;
+
+}
+#h1 {
+    font-size: 60px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}
+
+img {
+    width: 150px;
+}
+
+.rodape {
+    background: linear-gradient(to right, #2a4b74, #2a7b74); /* Verde degradê */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    position: fixed;  /* ou 'fixed' se quiser fixo no final da tela */
+    bottom: 0;
+    width: 100%;
+   
+}
+
+.rodape p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+@keyframes pulo {
+    0% {
+        transform: translateY(0); /* Posição inicial (normal) */
+    }
+    50% {
+        transform: translateY(-20px); /* Pulo para cima */
+    }
+    100% {
+        transform: translateY(0); /* Posição final (volta para o normal) */
+    }
+}
+
+#pame {
+    
+        animation: pulo 1s ease-in-out 2; /* Animação de 1 segundo, 2 vezes */
+    
+}
+
+#jogo1 {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+
+
+

@@ -1,0 +1,162 @@
+* {
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    color: rgb(0, 0, 0);
+    background-color: #f4f4f4;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+
+
+    .saiba {
+        display: flex;
+        justify-content: center; /* ou 'flex-end' se quiser na direita */
+        margin-top: auto; /* Empurra para o final */
+    }
+}
+header {
+   
+    text-align: center;
+    padding: 15px 0;
+
+    & img {
+       width: 120px;
+    }
+
+    h1 {
+       color: #000000;
+       font-size: larger;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       text-align: center;
+       font-size: 50px;
+          
+    }
+}
+
+ section {
+    color: #000000;
+    padding: 0;
+    margin: 0;
+
+    #nu {
+        font-size: 20px;
+    }
+    }
+    
+    .parag {
+        color: #000;
+    }
+    .table 
+     {
+        width: 100%; /* Ocupa toda largura da section */
+        border-collapse: collapse; /* Remove espaçamentos entre bordas */
+        margin-top: 20px; /* Um espaço da tabela até o conteúdo de cima */
+        margin: 20px 0;
+        box-shadow: 0 0 10px rgba(0,0,1,1.5);
+     }
+
+    
+     
+    .table thead th  { 
+        background-color: #2a6b74;
+        color: white;
+        font-weight:normal;
+        text-transform: uppercase;
+    
+        
+    }
+    .table th, .table td 
+    {
+        border: 2px solid #ddd;
+        text-align: center;
+    }
+
+    
+    .time {
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Centraliza tudo horizontalmente */
+        gap: 20px; /* Dá espaço entre as imagens e o X */
+        margin: 20px 0;
+    }
+    
+    /* Estilo das imagens */
+    .corint, .mirassol {
+        width: 80px;
+        height: auto;
+    }
+    
+    /* Estilo do X */
+    .contra {
+        font-size: 30px;
+        font-weight: bold;
+        color: black;
+        margin: 0;
+    }
+   
+    
+                        
+   & .saiba {
+    position: fixed;    /* Fixa no viewport (tela) */
+    bottom: 0;          /* Cola no fundo da tela */
+    left: 0;
+    width: 100%;        /* Ocupa toda a largura */
+    color: #f4f4f4;
+    background-color: #2a6b74; /* Pode dar um fundo pra destacar */
+    text-align: center; /* Centraliza o botão */
+    padding: 10px 0;    /* Dá um respiro em cima e embaixo */
+
+
+   }     
+   .saiba button {
+   background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+   }
+
+
+   .date {  
+    color: #000;
+    margin-top: 80px; 
+   }
+
+   .tabeladata {
+    margin-top: 80px;  /* ou o valor que você quiser */
+    width: 30%;
+    border-collapse: collapse;
+    
+   }
+
+   .tabeladata thead tr th {
+    color: #000;
+    
+   }
+   #calculo
+   {
+    color: #000;
+    transition: background-color 0.3s ease, color 0.3s ease;
+   }
+   #calculo:active {
+    background-color: #2a6b74;  /* Cor de fundo mais escura */
+    color: #050505;             /* Muda a cor do texto para vermelho quando pressionado */
+}
+.estilo-dinamico {
+    background-color: #2a6b74; /* Muda a cor para vermelha */
+    color: black; /* Muda a cor do texto */
+}
+ 
+
+
+
+ 
+
