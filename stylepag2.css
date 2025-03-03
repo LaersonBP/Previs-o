@@ -13,7 +13,7 @@ font-size: x-large;
 }
 
 img {
-    width: 150px;
+    width: 100px;
 }
 
 .rodape {
@@ -47,14 +47,28 @@ img {
     }
 }
 
-#pame {
+#pame, #corinthi, #sant {
     
         animation: pulo 1s ease-in-out 2; /* Animação de 1 segundo, 2 vezes */
     
 }
 
-#jogo1 {
+h2, h3, h4 {
     border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    background-color: greenyellow;
+}
+
+h3 {
+    color: aliceblue;
+    background: linear-gradient(to right,#000000,#cf0e0e);
+}
+
+h4  {
+    color: rgb(8, 8, 8);
+    background: linear-gradient(to right,#0aa4fd,#6257fc);
 }
 
 
